@@ -117,5 +117,6 @@ The aim of this paper is to used six machine learning models to analyise and pre
 ---
 ## Summary
 
-In summary, 
-It is recommended that 
+In summary, all the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high. The Easy Ensemble Classifier model had the highest overall accuracy, due largely to the fact that the dataset was so radically unbalanced. Even when it's balanced accuracy and average F-score were above 90%, it's F-score for high-risk prediction was no better than 0.16.
+
+For the reasons stated above, it would be recommended to not use any of the algorithms, as it would put creditors as too great of risk being unable to accurately predict who the high-risk clients/debtors would be. Though all the models were strong in predicting low risk credit, they are sill weak when predicting hight reisk credit, including Ensemble model, it would still be advised to not use any of the models above. 
